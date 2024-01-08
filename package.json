@@ -1,0 +1,17 @@
+{
+  "name": "cypressv13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fullExecution" : "npx cypress run --env allure=true "
+  },
+  "author": "Rushi",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.1",
+    "cypress": "^13.6.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
