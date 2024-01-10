@@ -1,5 +1,10 @@
+Pre: Install Node 
+Check it is install properly 
+    node -v
+    npm -v
+
 Step 1: npm init
-        Install package.json 
+        Initialize the project and Install package.json 
 Step 2: npm install cypress --save-dev
         Install cypress
 Step 3: npx cypress open
@@ -8,8 +13,10 @@ Step 4: npm install -D cypress-xpath
         install xpath dependency
         also add a "require('cypress-xpath');" in support > e2e.js
 
-
-
+Step 5: Configure the cucumber install following command
+    npm install @badeball/cypress-cucumber-preprocessor
+    npm install cypress-fill-command
+    npm install @cypress/webpack-preprocessor
 
 Tutorial 1 - Introduction to Cypress
 
