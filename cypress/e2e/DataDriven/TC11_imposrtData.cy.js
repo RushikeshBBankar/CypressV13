@@ -1,5 +1,5 @@
 /// <reference types="Cypress" />
-import data from '../fixtures/example.json';
+import data from '../../fixtures/example.json';
 
 
 describe("test Contact us from via WebdriverUni", () => {
