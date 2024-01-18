@@ -5,7 +5,17 @@
   "main": "index.js",
   "scripts": {
     "fullExecution-headless": "npx cypress run",
+    "fullExecution-With-Chrome-In-Headless":"npx cypress run --browser chrome",
+    "fullExecution-With-firefox-In-Headless":"npx cypress run --browser firefox",
+    "fullExecution-With-edge-In-Headless":"npx cypress run --browser edge",
+    "fullExecution-With-chromium-In-Headless":"npx cypress run --browser chromium",
+    "fullExecution-With-electron-In-Headless":"npx cypress run --browser electron",
     "fullExecution-headed": "npx cypress run --headed",
+    "fullExecution-With-Chrome-In-Headed":"npx cypress run --headed --browser chrome",
+    "fullExecution-With-firefox-In-Headed":"npx cypress run --headed --browser firefox",
+    "fullExecution-With-edge-In-Headed":"npx cypress run --headed --browser edge",
+    "fullExecution-With-chromium-In-Headed":"npx cypress run --headed --browser chromium",
+    "fullExecution-With-electron-In-Headed":"npx cypress run --headed --browser electron",
     "Regression": "cypress run --spec \"cypress\\e2e\\Regression\\*.cy.js\""
   },
   "author": "Rushi",
