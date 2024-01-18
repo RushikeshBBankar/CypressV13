@@ -2,7 +2,7 @@
 
 describe("Handling Iframe & Modals",()=>{
 
-    it("Handle webdriveruni ifram and model",()=>{
+    it("Handle webdriver ifram and model",()=>{
 
         cy.visit('https://webdriveruniversity.com/') 
         cy.get('#iframe').invoke('removeAttr','target').click()
