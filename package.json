@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fullExecution": "npx cypress run",
+    "fullExecution-headless": "npx cypress run",
+    "fullExecution-headed": "npx cypress run --headed",
     "Regression": "cypress run --spec \"cypress\\e2e\\Regression\\*.cy.js\""
   },
   "author": "Rushi",
