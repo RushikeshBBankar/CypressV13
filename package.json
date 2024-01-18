@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "fullExecution": "npx cypress run --env allure=true "
+    "fullExecution": "npx cypress run",
+    "Regression": "cypress run --spec \"cypress\\e2e\\Regression\\*.cy.js\""
   },
   "author": "Rushi",
   "license": "ISC",
