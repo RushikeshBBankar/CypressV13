@@ -3,7 +3,7 @@ import LoginPage from "../pages/loginPage";
 import HomePage from "../pages/homePage";
 import SettingsPage from "../pages/settingspage";
 
-describe('POM Test',function(){
+describe('@dev POM Test',function(){
  
         beforeEach(function(){
             cy.fixture('ConduitData').as('data')

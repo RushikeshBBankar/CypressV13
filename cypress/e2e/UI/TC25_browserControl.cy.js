@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
  
-describe('Advanced UI Elements',()=>{
+describe('@dev Advanced UI Elements',()=>{
  
         it('Browser Controls',()=>{
             cy.visit('https://react-redux.realworld.io/')

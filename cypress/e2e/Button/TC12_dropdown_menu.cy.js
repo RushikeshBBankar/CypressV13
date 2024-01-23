@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe("DropDown buttons ",()=>{
+describe("@dev DropDown buttons ",()=>{
 
     it("validate the the drop down button with select tag",()=>{
         cy.visit('/')

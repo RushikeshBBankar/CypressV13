@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe('Check the page navigation',()=>{
+describe('@dev Check the page navigation',()=>{
         it('Verify page title',()=>{
                 cy.visit('https://webdriveruniversity.com/')
                 cy.url().should('include', 'webdriveruniversity')

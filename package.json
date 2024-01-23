@@ -18,11 +18,13 @@
     "fullExecution-With-electron-In-Headed": "npx cypress run --headed --browser electron",
     "Regression": "cypress run --spec \"cypress\\e2e\\Regression\\*.cy.js\"",
     "testFolder": "npx cypress run --env allure=true --reporter mocha-allure-reporter",
-    "allureResult": "allure generate allure-results --clean && allure open allure-report"
+    "allureResult": "allure generate allure-results --clean && allure open allure-report",
+    "withDevTag": "npx cypress run --env grep=\"@dev\" allure=true --reporter mocha-allure-reporter"
   },
   "author": "Rushi",
   "license": "ISC",
   "devDependencies": {
+    "@cypress/grep": "^4.0.1",
     "@shelex/cypress-allure-plugin": "^2.40.1",
     "cypress": "^13.6.2",
     "cypress-xpath": "^2.0.1"
