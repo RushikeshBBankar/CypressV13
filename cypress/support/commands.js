@@ -1,3 +1,5 @@
+import '@shelex/cypress-allure-plugin';
+
 Cypress.Commands.add("WebdriverUni_ContactForm_Submission", (firstName, lastName, email, comment, $selector, textLocator) =>{
 
         cy.get('[name="first_name"]').type(firstName)

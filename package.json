@@ -19,11 +19,11 @@
     "Regression": "cypress run --spec \"cypress\\e2e\\Regression\\*.cy.js\"",
     "testFolder": "npx cypress run --env allure=true --reporter mocha-allure-reporter",
     "allureResult": "allure generate allure-results --clean && allure open allure-report"
-
   },
   "author": "Rushi",
   "license": "ISC",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.1",
     "cypress": "^13.6.2",
     "cypress-xpath": "^2.0.1"
   },
