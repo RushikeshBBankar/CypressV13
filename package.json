@@ -16,12 +16,14 @@
     "fullExecution-With-edge-In-Headed": "npx cypress run --headed --browser edge",
     "fullExecution-With-chromium-In-Headed": "npx cypress run --headed --browser chromium",
     "fullExecution-With-electron-In-Headed": "npx cypress run --headed --browser electron",
-    "Regression": "cypress run --spec \"cypress\\e2e\\Regression\\*.cy.js\""
+    "Regression": "cypress run --spec \"cypress\\e2e\\Regression\\*.cy.js\"",
+    "testFolder": "npx cypress run --env allure=true --reporter mocha-allure-reporter",
+    "allureResult": "allure generate allure-results --clean && allure open allure-report"
+
   },
   "author": "Rushi",
   "license": "ISC",
   "devDependencies": {
-    "@shelex/cypress-allure-plugin": "^2.40.1",
     "cypress": "^13.6.2",
     "cypress-xpath": "^2.0.1"
   },
@@ -29,6 +31,7 @@
     "@badeball/cypress-cucumber-preprocessor": "^20.0.0",
     "@cypress/webpack-preprocessor": "^6.0.1",
     "cypress-fill-command": "^1.0.2",
+    "mocha-allure-reporter": "^1.4.0",
     "neat-csv": "^5.2.0",
     "xlsx": "^0.18.5"
   }
