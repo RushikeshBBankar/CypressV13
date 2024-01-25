@@ -1,0 +1,22 @@
+{
+    "articles": [
+        {
+            "slug": "Demo-Post2-29836",
+            "title": "Demo Mock Cypress",
+            "description": "Demo Post for Udemy Course",
+            "body": "This is a Demo post for testing",
+            "tagList": [],
+            "createdAt": "2023-01-13T08:20:39.432Z",
+            "updatedAt": "2023-01-13T08:20:39.432Z",
+            "favorited": false,
+            "favoritesCount": 0,
+            "author": {
+                "username": "Rushikesh",
+                "bio": null,
+                "image": "https://api.realworld.io/images/smiley-cyrus.jpeg",
+                "following": false
+            }
+        }
+    ],
+    "articlesCount": 1
+}
