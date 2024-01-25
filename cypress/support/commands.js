@@ -13,3 +13,11 @@ Cypress.Commands.add("WebdriverUni_ContactForm_Submission", (firstName, lastName
         //Because ".comtains"  search inside the entire element for specific text
    
 })
+
+Cypress.Commands.add("demoCypress",()=>{
+        cy.visit('https://react-redux.realworld.io/')
+        cy.contains('Sign in').click()
+        cy.get('input[type="email"]').type('cypressdemo@gmail.com')
+        cy.get('input[type="password"]').type('cypressdemo')
+        cy.get('button[type="submit"]').click()
+})
