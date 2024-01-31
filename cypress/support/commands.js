@@ -21,3 +21,18 @@ Cypress.Commands.add("demoCypress",()=>{
         cy.get('input[type="password"]').type('cypressdemo')
         cy.get('button[type="submit"]').click()
 })
+
+Cypress.Commands.add('verifyCountry',(country_code)=>{
+        switch(country_code){
+                case '/in/':
+                        return 'India'
+                case '/uk/':
+                        return 'United Kingdom'
+                case '/ae/':
+                        return 'United Arab Emirates'
+                case '/ca/':
+                        return 'Canada'
+                default:
+                        return 'United Arab Emirates'
+        }
+})
