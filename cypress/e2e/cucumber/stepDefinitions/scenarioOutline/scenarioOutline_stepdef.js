@@ -23,8 +23,6 @@ Then(/^user should "([^"]*)" successfully logged in$/, function (logInType) {
         return console.log("@Then ---user should "+logInType+" successfully logged in");
 });
 
-
-
 Then('user validates the captcha image', function (table) {
 
         var data = table.hashes()[0]
