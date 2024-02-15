@@ -8,6 +8,7 @@ Cypress.Commands.add("WebdriverUni_ContactForm_Submission", (firstName, lastName
         cy.get('textarea.feedback-input').type(comment)
         cy.get('[type="submit"]').click()
         cy.get($selector).contains(textLocator)
+        
         // For the assertion "Should" and "contains" both should same job for us
         //But "contains" is more simplified 
         //Because ".comtains"  search inside the entire element for specific text

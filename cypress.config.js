@@ -21,7 +21,7 @@ module.exports = defineConfig({
       return require('./cypress/plugins/index.js')(on, config)
 
     },
-    specPattern:"cypress/e2e/cucumber/feature/*.feature",
+   // specPattern:"cypress/e2e/cucumber/feature/*.feature",
     baseUrl: `https://webdriveruniversity.com/`,
   },
   
