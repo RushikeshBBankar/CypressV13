@@ -23,6 +23,8 @@ module.exports = defineConfig({
     },
    // specPattern:"cypress/e2e/cucumber/feature/*.feature",
     baseUrl: `https://webdriveruniversity.com/`,
+    userName:`cypressdemo@gmail.com`,
+    password: `cypressdemo`,
   },
   
   setupNodeEvents(on, config) {
