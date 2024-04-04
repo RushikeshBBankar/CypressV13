@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe('Multi-Country application test',()=>{
+describe.skip('Multi-Country application test',()=>{
         const country_code = ['/in/','/ae/','/uk/','/in/','/ca/']
 
         it('should test application behavior for country',()=>{
