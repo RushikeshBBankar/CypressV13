@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cypress:run": "cypress run",
     "fullExecution-headless": "npx cypress run",
     "fullExecution-With-Chrome-In-Headless": "npx cypress run --browser chrome",
     "fullExecution-With-firefox-In-Headless": "npx cypress run --browser firefox",
