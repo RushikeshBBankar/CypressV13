@@ -29,7 +29,6 @@
     "posttest": "npm run combine-reports && npm run generate-report",
     "test": "npm run scripts || npm run posttest",
 
-
     "RegressionAllure": "cypress run --spec \"cypress\\e2e\\UI\\*.cy.js\"",
     "allureReport": "npx allure serve allure-results",
     "testAllure": "npm run RegressionAllure && npm run allureReport"
